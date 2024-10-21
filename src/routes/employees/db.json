@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "id": 1, "title": "json-server", "author": "typicode", "age": "20" },
+    { "id": 2, "title": "json-server", "author": "typicode", "age": "21" }
+  ]
+}
