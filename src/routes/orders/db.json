@@ -1,0 +1,73 @@
+{
+  "kanban": {
+    "new": [
+      {
+        "id": 603648550661607321,
+        "last_event": "PLACED",
+        "originator": "RAPPI",
+        "type": "DELIVERY",
+        "image_path_originator": "localhost:8080/rappi.png",
+        "display_id": "130",
+        "pickup_code": "593",
+        "customer_name": "José Ivaldo",
+        "time_to_accept": "2024-10-11T10:01:00Z",
+        "inconsistencies": 0
+      },
+      {
+        "id": 603648550661606643,
+        "last_event": "PLACED",
+        "originator": "IFOOD",
+        "type": "TAKEOUT",
+        "image_path_originator": "localhost:8080/ifood.png",
+        "display_id": "40",
+        "pickup_code": "0793",
+        "customer_name": "Daniela Madlum",
+        "time_to_accept": "2024-10-11T10:05:00Z",
+        "inconsistencies": 2
+      }
+    ],
+    "in_progress": [
+      {
+        "id": 603648550661607456,
+        "last_event": "PLACED",
+        "originator": "IFOOD",
+        "type": "TAKEOUT",
+        "image_path_originator": "localhost:8080/ifood.png",
+        "display_id": "40",
+        "pickup_code": "0793",
+        "customer_name": "Daniela Madlum",
+        "time_to_accept": "2024-10-11T10:05:00Z",
+        "inconsistencies": 2
+      }
+    ],
+    "ready": [
+      {
+        "id": 621648550661607307,
+        "last_event": "PLACED",
+        "originator": "IFOOD",
+        "type": "TAKEOUT",
+        "image_path_originator": "localhost:8080/ifood.png",
+        "display_id": "40",
+        "pickup_code": "0793",
+        "customer_name": "Daniela Madlum",
+        "time_to_accept": "2024-10-11T10:05:00Z",
+        "inconsistencies": 2
+      }
+    ],
+    "fineshed": [
+      {
+        "id": 23432432,
+        "last_event": "PLACED",
+        "originator": "IFOOD",
+        "type": "TAKEOUT",
+        "image_path_originator": "localhost:8080/ifood.png",
+        "display_id": "40",
+        "pickup_code": "0793",
+        "customer_name": "Daniela Madlum",
+        "time_to_accept": "2024-10-11T10:05:00Z",
+        "inconsistencies": 2
+      }
+    ]
+  }
+ 
+}

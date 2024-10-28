@@ -13,7 +13,7 @@ server.use(jsonServer.rewriter({
   "/api/*": "/$1",
   ...(fs.readdirSync(routesPath).reduce((all, routeName) => {
     const rKey = `/${routeName}*`;
-    return  {...all, [rKey]: `/${routeName}/items/$1`}
+    return  {...all, [rKey]: `/${routeName}/$1`}
   }, {}))
 }))
 
@@ -57,3 +57,5 @@ fs.readdirSync(routesPath).forEach((routeName) => {
 server.listen(3333, () => {
   console.log('JSON Server is running with modular routes');
 });
+
+
